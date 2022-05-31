@@ -26,7 +26,4 @@ app.use((err, req, res, next) => {
 
 module.exports = app;
 
-// 1V0Xt3B2bxJoI6td
 
-// 8LcOoSeZQirjuuuA
-// mongodb+srv://Nataliya:8LcOoSeZQirjuuuA@cluster0.uo70avk.mongodb.net/test

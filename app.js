@@ -1,7 +1,9 @@
 const express = require("express");
 const logger = require("morgan");
 const cors = require("cors");
+
 require("dotenv").config();
+
 
 const usersRouter = require('./routes/api/users')
 const contactsRouter = require("./routes/api/contacts");
@@ -32,7 +34,5 @@ app.use((err, req, res, next) => {
 
 module.exports = app;
 
-
-// DB_HOST =mongodb+srv://Nataliya:8LcOoSeZQirjuuuA@cluster0.uo70avk.mongodb.net/db-contacts?retryWrites=true&w=majority
 
 
